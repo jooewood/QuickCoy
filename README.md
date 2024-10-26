@@ -20,13 +20,14 @@ Utilizing a bidirectional77 Gated Recurrent Unit (GRU) with a linear output laye
 ```
 
 # Data
-[DeepChem dataloader](https://github.com/deepchem/deepchem/tree/master/deepchem/molnet/load_function)
-[DeepChem Dataset](https://moleculenet.org/datasets-1)
-[DGL-LifeSci Dataset](https://lifesci.dgl.ai/api/data.html)
-[MUV data generator](https://github.com/skearnes/muv)
-[LIT-PCBA Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00155)
-[LIT-PCBADownload](https://drugdesign.unistra.fr/LIT-PCBA/)
-Make sure molecules in triaining set, 27 properties should have values. 
+[DeepChem dataloader](https://github.com/deepchem/deepchem/tree/master/deepchem/molnet/load_function)   
+[DeepChem Dataset](https://moleculenet.org/datasets-1)   
+[DGL-LifeSci Dataset](https://lifesci.dgl.ai/api/data.html)   
+[MUV data generator](https://github.com/skearnes/muv)   
+[LIT-PCBA Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00155)    
+[LIT-PCBADownload](https://drugdesign.unistra.fr/LIT-PCBA/)   
+Make sure molecules in triaining set, 27 properties should have values.
+
 # Resource
 1. [InteractionGraphNet](https://pubs.acs.org/doi/10.1021/acs.jmedchem.1c01830)
 2. [TocoDecoy](https://pubs.acs.org/doi/10.1021/acs.jmedchem.1c01830) paper
