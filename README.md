@@ -9,7 +9,7 @@ A key step in training a virtual screening model is to prepare a dataset consist
 
 ## Conclusion
 Our experimental results show that our decoy can enhance the generalization ability of structure-based deep learning virtual screening models and reduce the problem of overestimation.
-
+![alt text](image.png)
 ## Model
 Utilizing a bidirectional77 Gated Recurrent Unit (GRU) with a linear output layer as an encoder. The decoder is a 3-layer GRU RNN of 512 hidden dimensions with intermediate dropout layers with dropout probability 0.2. Training is done with a batch size of 128, utilizing a gradient clipping of 50, KL-term weight of 1, and optimized with Adam with a learning rate of 0.0003 for 50 epochs. A trained CVAE model which can generate molecules conditioned on 27 properties.
 
